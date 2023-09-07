@@ -1,0 +1,5 @@
+# ignore intellij folder alltogether
+.idea/
+.direnv
+result
+bin/

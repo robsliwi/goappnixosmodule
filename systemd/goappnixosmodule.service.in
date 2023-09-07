@@ -1,0 +1,9 @@
+[Unit]
+Description=A goappnixosmodule service
+
+[Service]
+DynamicUser=yes
+ExecStart=@goappnixosmodule@/bin/goappnixosmodule
+
+[Install]
+WantedBy=multi-user.target
